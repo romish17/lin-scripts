@@ -17,8 +17,8 @@ php net-tools htop gnupg2 wget gpg apt-transport-https code \
 software-properties-common google-chrome-stable golang -yy
 
 
-wget https://github.com/R0M-0X/Scripts/blob/005991c92d91f3e02be98fc74a4e840e3fa00c6a/_Assets/Deb/GTK/Nordic-darker.tar.xz
-wget https://github.com/R0M-0X/Scripts/blob/005991c92d91f3e02be98fc74a4e840e3fa00c6a/_Assets/Wallpapers/wall2.jpg
+wget https://github.com/romish17/lin-scripts/raw/main/assets/gtk/Nordic-darker.tar.xz
+wget https://github.com/romish17/lin-scripts/blob/main/assets/wallpapers/wall2.jpg?raw=true
 
 tar -xvf Nordic-darker.tar.xz
 cp -r Nordic-darker-v40/ /usr/share/themes/
@@ -70,9 +70,6 @@ xfconf-query -c xsettings -p /Net/IconThemeName -s Paper-Mono-Dark
 
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 
-
-##### Dir
-/root/
 
 
  
